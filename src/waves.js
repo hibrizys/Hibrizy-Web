@@ -301,15 +301,15 @@ export const waves = () => {
         }
       }
 
-      // ivec2       : uniform2i,
-      // ivec3       : uniform3i,
-      // ivec4       : uniform4i,
-      // sampler2D   : uniform1i,
-      // samplerCube : uniform1i,
-      // bool        : uniform1i,
-      // bvec2       : uniform2i,
-      // bvec3       : uniform3i,
-      // bvec4       : uniform4i,
+      ivec2       : uniform2i,
+      ivec3       : uniform3i,
+      ivec4       : uniform4i,
+      sampler2D   : uniform1i,
+      samplerCube : uniform1i,
+      bool        : uniform1i,
+      bvec2       : uniform2i,
+      bvec3       : uniform3i,
+      bvec4       : uniform4i,
     }
 
     updateUniforms() {
