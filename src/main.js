@@ -11,8 +11,7 @@ import './assets/css/custom.css'
 import './assets/css/plugins.css'
 import './assets/css/style.css'
 
-// import "./assets/js/index.js";
-// import "./assets/js/index2.js";
+
 
 const app = createApp(App)
 
