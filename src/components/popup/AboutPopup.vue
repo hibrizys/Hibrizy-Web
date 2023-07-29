@@ -10,8 +10,8 @@
             <div class="left_inner">
               <div class="author">
                 <div class="avatar_image">
-                  <img src="@/assets/img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="src/assets/img/about/izy.jpg"></div>
+                  <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/1-1.jpg?raw=true" alt="" />
+                  <div class="main" data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/about/izy.jpg?raw=true"></div>
                 </div>
                 <div class="short">
                   <h3 class="name">
@@ -253,7 +253,7 @@
                           <div class="image">
                             <div
                               class="main"
-                              data-img-url="src/assets/img/testimonials/1.jpg"
+                              data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/testimonials/1.jpg?raw=true"
                             ></div>
                           </div>
                           <div class="info">
@@ -276,7 +276,7 @@
                           <div class="image">
                             <div
                               class="main"
-                              data-img-url="src/assets/img/testimonials/2.jpg"
+                              data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/testimonials/2.jpg?raw=true"
                             ></div>
                           </div>
                           <div class="info">
@@ -299,7 +299,7 @@
                           <div class="image">
                             <div
                               class="main"
-                              data-img-url="src/assets/img/testimonials/3.jpg"
+                              data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/testimonials/3.jpg?raw=true"
                             ></div>
                           </div>
                           <div class="info">

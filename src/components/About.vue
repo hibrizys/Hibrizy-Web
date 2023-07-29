@@ -4,7 +4,7 @@
       <div class="hibrizy_tm_about">
         <div class="left">
           <div class="image">
-            <img src="@/assets/img/thumbs/1-1.jpg" alt="" />
+            <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/1-1.jpg?raw=true" alt="" />
             <div class="main" data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/about/izy.jpg?raw=true"></div>
           </div>
         </div>

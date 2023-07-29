@@ -36,8 +36,8 @@
             <swiper-slide class="swiper-slide">
               <div class="list_inner">
                 <div class="image">
-                  <img src="@/assets/img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="src/assets/img/portfolio/1.jpg"></div>
+                  <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/1-1.jpg?raw=true" alt="" />
+                  <div class="main" data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/1.jpg"></div>
                 </div>
                 <div class="details">
                   <h3>Sweet Fruit</h3>
@@ -52,8 +52,8 @@
             <swiper-slide class="swiper-slide">
               <div class="list_inner">
                 <div class="image">
-                  <img src="@/assets/img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="src/assets/img/portfolio/2.jpg"></div>
+                  <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/1-1.jpg?raw=true" alt="" />
+                  <div class="main" data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/2.jpg"></div>
                 </div>
                 <div class="details">
                   <h3>Good Present</h3>
@@ -68,8 +68,8 @@
             <swiper-slide class="swiper-slide">
               <div class="list_inner">
                 <div class="image">
-                  <img src="@/assets/img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="src/assets/img/portfolio/3.jpg"></div>
+                  <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/1-1.jpg?raw=true" alt="" />
+                  <div class="main" data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/3.jpg"></div>
                 </div>
                 <div class="details">
                   <h3>Mockup Cream</h3>
@@ -84,8 +84,8 @@
             <swiper-slide class="swiper-slide">
               <div class="list_inner">
                 <div class="image">
-                  <img src="@/assets/img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="src/assets/img/portfolio/4.jpg"></div>
+                  <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/1-1.jpg?raw=true" alt="" />
+                  <div class="main" data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/4.jpg"></div>
                 </div>
                 <div class="details">
                   <h3>Delicious Apple</h3>
@@ -97,11 +97,11 @@
                 <div class="hibrizy_tm_hidden_content">
                   <div class="portfolio_popup_details">
                     <div class="top_image">
-                      <img src="@/assets/img/thumbs/4-2.jpg" alt="" />
+                      <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/4-2.jpg?raw=true" alt="" />
                       <div
                         class="main"
-                        data-img-url="src/assets/img/portfolio/4.jpg"
-                        style="background-image: url('src/assets/img/portfolio/4.jpg')"
+                        data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/4.jpg"
+                        style="background-image: url('https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/4.jpg')"
                       ></div>
                     </div>
                     <div class="details">
@@ -128,11 +128,11 @@
                         <li>
                           <div class="list_inner">
                             <div class="image">
-                              <img src="@/assets/img/thumbs/4-2.jpg" alt="" />
-                              <div class="main" data-img-url="src/assets/img/portfolio/7.jpg"></div>
+                              <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/4-2.jpg?raw=true" alt="" />
+                              <div class="main" data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/7.jpg"></div>
                               <a
                                 class="hibrizy_tm_full_link zoom"
-                                href="src/assets/img/portfolio/7.jpg"
+                                href="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/7.jpg"
                               ></a>
                             </div>
                           </div>
@@ -140,11 +140,11 @@
                         <li>
                           <div class="list_inner">
                             <div class="image">
-                              <img src="@/assets/img/thumbs/4-2.jpg" alt="" />
-                              <div class="main" data-img-url="src/assets/img/portfolio/8.jpg"></div>
+                              <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/4-2.jpg?raw=true" alt="" />
+                              <div class="main" data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/8.jpg"></div>
                               <a
                                 class="hibrizy_tm_full_link zoom"
-                                href="src/assets/img/portfolio/8.jpg"
+                                href="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/8.jpg"
                               ></a>
                             </div>
                           </div>
@@ -152,11 +152,11 @@
                         <li>
                           <div class="list_inner">
                             <div class="image">
-                              <img src="@/assets/img/thumbs/4-2.jpg" alt="" />
-                              <div class="main" data-img-url="src/assets/img/portfolio/9.jpg"></div>
+                              <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/4-2.jpg?raw=true" alt="" />
+                              <div class="main" data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/9.jpg"></div>
                               <a
                                 class="hibrizy_tm_full_link zoom"
-                                href="src/assets/img/portfolio/9.jpg"
+                                href="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/9.jpg"
                               ></a>
                             </div>
                           </div>
@@ -171,27 +171,27 @@
             <swiper-slide class="swiper-slide">
               <div class="list_inner">
                 <div class="image">
-                  <img src="@/assets/img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="src/assets/img/portfolio/5.jpg"></div>
+                  <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/1-1.jpg?raw=true" alt="" />
+                  <div class="main" data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/5.jpg"></div>
                 </div>
                 <div class="details">
                   <h3>Blue Lemon</h3>
                   <span>Image</span>
                 </div>
-                <a class="hibrizy_tm_full_link zoom" href="src/assets/img/portfolio/5.jpg"></a>
+                <a class="hibrizy_tm_full_link zoom" href="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/5.jpg"></a>
               </div>
             </swiper-slide>
             <swiper-slide class="swiper-slide">
               <div class="list_inner">
                 <div class="image">
-                  <img src="@/assets/img/thumbs/1-1.jpg" alt="" />
-                  <div class="main" data-img-url="src/assets/img/portfolio/6.jpg"></div>
+                  <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/1-1.jpg?raw=true" alt="" />
+                  <div class="main" data-img-url="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/6.jpg"></div>
                 </div>
                 <div class="details">
                   <h3>Sweet Cheery</h3>
                   <span>Image</span>
                 </div>
-                <a class="hibrizy_tm_full_link zoom" href="src/assets/img/portfolio/6.jpg"></a>
+                <a class="hibrizy_tm_full_link zoom" href="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/portfolio/6.jpg"></a>
               </div>
             </swiper-slide>
             <div class="hibrizy_tm_swiper_progress fill">

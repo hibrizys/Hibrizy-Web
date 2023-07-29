@@ -36,7 +36,7 @@
             <swiper-slide class="swiper-slide" v-for="(data, i) in newsData" :key="i">
               <div class="list_inner">
                 <div class="image">
-                  <img src="@/assets/img/thumbs/4-3.jpg" alt="" />
+                  <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/4-3.jpg?raw=true" alt="" />
                   <div class="main" :data-img-url="data.img"></div>
                   <a class="hibrizy_tm_full_link news_popup" href="#"></a>
                 </div>
@@ -53,7 +53,7 @@
                 <div class="hibrizy_tm_hidden_content">
                   <div class="news_popup_details">
                     <div class="top_image">
-                      <img src="@/assets/img/thumbs/4-2.jpg" alt="" />
+                      <img src="https://github.com/hibrizys/Hibrizy-Web/blob/main/src/assets/img/thumbs/4-2.jpg?raw=true" alt="" />
                       <div class="main" :data-img-url="data.img"></div>
                     </div>
                     <div class="news_main_title">
