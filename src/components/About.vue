@@ -5,7 +5,7 @@
         <div class="left">
           <div class="image">
             <img src="@/assets/img/thumbs/1-1.jpg" alt="" />
-            <div class="main" data-img-url="@/assets/img/about/izy.jpg"></div>
+            <div class="main" data-img-url="src/assets/img/about/izy.jpg"></div>
           </div>
         </div>
         <div class="right">
