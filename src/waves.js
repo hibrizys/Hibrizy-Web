@@ -9,47 +9,47 @@ export const waves = () => {
           autosize: true,
           side: 'front',
           vertex: `
-                    precision highp float;
-            
-                    attribute vec4 a_position;
-                    attribute vec4 a_color;
-            
-                    uniform float u_time;
-                    uniform vec2 u_resolution;
-                    uniform vec2 u_mousemove;
-                    uniform mat4 u_projection;
-            
-                    varying vec4 v_color;
-            
-                    void main() {
-            
-                      gl_Position = u_projection * a_position;
-                      gl_PointSize = (10.0 / gl_Position.w) * 100.0;
-            
-                      v_color = a_color;
-            
-                    }`,
+                  precision highp float;
+          
+                  attribute vec4 a_position;
+                  attribute vec4 a_color;
+          
+                  uniform float u_time;
+                  uniform vec2 u_resolution;
+                  uniform vec2 u_mousemove;
+                  uniform mat4 u_projection;
+          
+                  varying vec4 v_color;
+          
+                  void main() {
+          
+                    gl_Position = u_projection * a_position;
+                    gl_PointSize = (10.0 / gl_Position.w) * 100.0;
+          
+                    v_color = a_color;
+          
+                  }`,
           fragment: `
-                    precision highp float;
-            
-                    uniform sampler2D u_texture;
-                    uniform int u_hasTexture;
-            
-                    varying vec4 v_color;
-            
-                    void main() {
-            
-                      if ( u_hasTexture == 1 ) {
-            
-                        gl_FragColor = v_color * texture2D(u_texture, gl_PointCoord);
-            
-                      } else {
-            
-                        gl_FragColor = v_color;
-            
-                      }
-            
-                    }`,
+                  precision highp float;
+          
+                  uniform sampler2D u_texture;
+                  uniform int u_hasTexture;
+          
+                  varying vec4 v_color;
+          
+                  void main() {
+          
+                    if ( u_hasTexture == 1 ) {
+          
+                      gl_FragColor = v_color * texture2D(u_texture, gl_PointCoord);
+          
+                    } else {
+          
+                      gl_FragColor = v_color;
+          
+                    }
+          
+                  }`,
           uniforms: {},
           buffers: {},
           camera: {},
@@ -456,48 +456,48 @@ export const waves = () => {
       speed: { type: 'float', value: 5 }
     },
     vertex: `
-                #define M_PI 3.1415926535897932384626433832795
-            
-                precision highp float;
-            
-                attribute vec4 a_position;
-                attribute vec4 a_color;
-            
-                uniform float u_time;
-                uniform float u_size;
-                uniform float u_speed;
-                uniform vec3 u_field;
-                uniform mat4 u_projection;
-            
-                varying vec4 v_color;
-            
-                void main() {
-            
-                  vec3 pos = a_position.xyz;
-            
-                  pos.y += (
-                    cos(pos.x / u_field.x * M_PI * 8.0 + u_time * u_speed) +
-                    sin(pos.z / u_field.z * M_PI * 8.0 + u_time * u_speed)
-                  ) * u_field.y;
-            
-                  gl_Position = u_projection * vec4( pos.xyz, a_position.w );
-                  gl_PointSize = ( u_size / gl_Position.w ) * 100.0;
-            
-                  v_color = a_color;
-            
-                }`,
+              #define M_PI 3.1415926535897932384626433832795
+          
+              precision highp float;
+          
+              attribute vec4 a_position;
+              attribute vec4 a_color;
+          
+              uniform float u_time;
+              uniform float u_size;
+              uniform float u_speed;
+              uniform vec3 u_field;
+              uniform mat4 u_projection;
+          
+              varying vec4 v_color;
+          
+              void main() {
+          
+                vec3 pos = a_position.xyz;
+          
+                pos.y += (
+                  cos(pos.x / u_field.x * M_PI * 8.0 + u_time * u_speed) +
+                  sin(pos.z / u_field.z * M_PI * 8.0 + u_time * u_speed)
+                ) * u_field.y;
+          
+                gl_Position = u_projection * vec4( pos.xyz, a_position.w );
+                gl_PointSize = ( u_size / gl_Position.w ) * 100.0;
+          
+                v_color = a_color;
+          
+              }`,
     fragment: `
-                precision highp float;
-            
-                uniform sampler2D u_texture;
-            
-                varying vec4 v_color;
-            
-                void main() {
-            
-                  gl_FragColor = v_color * texture2D(u_texture, gl_PointCoord);
-            
-                }`,
+              precision highp float;
+          
+              uniform sampler2D u_texture;
+          
+              varying vec4 v_color;
+          
+              void main() {
+          
+                gl_FragColor = v_color * texture2D(u_texture, gl_PointCoord);
+          
+              }`,
     onResize(w, h, dpi) {
       const position = [],
         color = []
