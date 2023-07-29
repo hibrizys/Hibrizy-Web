@@ -57,8 +57,8 @@ import Contact from '@/components/Contact.vue'
 import Home from '@/components/Home.vue'
 import News from '@/components/News.vue'
 import Portofolio from '@/components/Portofolio.vue'
-import { dataImage, imgToSVG } from 'Hibrizy-Web/src/utilits'
-import { waves } from 'Hibrizy-Web/src/waves'
+import { dataImage, imgToSVG } from '../utilits'
+import { waves } from '../waves'
 
 export default {
   name: `HomeView`,
