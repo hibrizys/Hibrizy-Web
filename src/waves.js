@@ -373,7 +373,7 @@ export const waves = () => {
       const gl = this.gl
       const buffers = this.buffers
 
-      Object.keys(buffers).forEach((name) => (buffers[name] = buffers.data))
+      Object.keys(buffers).forEach((name) => (buffers[name] = buffer.data))
 
       this.setBuffer(null)
     }
