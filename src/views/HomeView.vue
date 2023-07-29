@@ -57,8 +57,8 @@ import Contact from '@/components/Contact.vue'
 import Home from '@/components/Home.vue'
 import News from '@/components/News.vue'
 import Portofolio from '@/components/Portofolio.vue'
-import { dataImage, imgToSVG } from './src/utilits.js'
-import { waves } from './src/waves.js'
+import { dataImage, imgToSVG } from '../src/utilits.js'
+import { waves } from '../src/waves.js'
 
 export default {
   name: `HomeView`,
