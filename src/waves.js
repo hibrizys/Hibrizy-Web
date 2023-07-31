@@ -142,6 +142,7 @@ export const waves = () => {
       this.uniforms.mousemove = [x, y]
     }
 
+    // eslint-disable-next-line no-unused-vars
     resize(e) {
       const holder = this.holder
       const canvas = this.canvas
@@ -313,6 +314,7 @@ export const waves = () => {
     }
 
     updateUniforms() {
+      // eslint-disable-next-line no-unused-vars
       const gl = this.gl
       const uniforms = this.data.uniforms
 
@@ -324,6 +326,7 @@ export const waves = () => {
     }
 
     createBuffers(data) {
+      // eslint-disable-next-line no-unused-vars
       const gl = this.gl
       const buffers = (this.data.buffers = data)
       const values = (this.buffers = {})
@@ -370,10 +373,11 @@ export const waves = () => {
     }
 
     updateBuffers() {
+      // eslint-disable-next-line no-unused-vars
       const gl = this.gl
       const buffers = this.buffers
 
-      Object.keys(buffers).forEach((name) => (buffers[name] = buffer.data))
+      Object.keys(buffers).forEach((name) => (buffers[name] = buffers.data))
 
       this.setBuffer(null)
     }
@@ -447,6 +451,7 @@ export const waves = () => {
 
   const pointSize = 2.5
 
+  // eslint-disable-next-line no-unused-vars
   const waves = new ShaderProgram(document.querySelector('.waves'), {
     texture:
       'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAb1BMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8v0wLRAAAAJHRSTlMAC/goGvDhmwcExrVjWzrm29TRqqSKenRXVklANSIUE8mRkGpv+HOfAAABCElEQVQ4y4VT13LDMAwLrUHteO+R9f/fWMfO6dLaPeKVEECRxOULWsEGpS9nULDwia2Y+ALqUNbAWeg775zv+sA4/FFRMxt8U2FZFCVWjR/YrH4/H9sarclSKdPMWKzb8VsEeHB3m0shkhVCyNzeXeAQ9Xl4opEieX2QCGnwGbj6GMyjw9t1K0fK9YZunPXeAGsfJtYjwzxaBnozGGorYz0ypK2HzQSYx1y8DgSRo2ewOiyh2QWOEk1Y9OrQV0a8TiBM1a8eMHWYnRMy7CZ4t1CmyRkhSUvP3gRXyHOCLBxNoC3IJv//ZrJ/kxxUHPUB+6jJZZHrpg6GOjnqaOmzp4NDR48OLxn/H27SRQ08S0ZJAAAAAElFTkSuQmCC',
