@@ -53,7 +53,6 @@ export const hibrizyCursor = () => {
       }),
         document.body.addEventListener(
           'mouseenter',
-          // "a,.kura_tm_topbar .trigger, .cursor-pointer",
           function () {
             let a = document.querySelectorAll('a')
             e.classList.add('cursor-inner'), t.classList.add('cursor-outer')
